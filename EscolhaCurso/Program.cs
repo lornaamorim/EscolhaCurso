@@ -12,10 +12,14 @@ namespace EscolhaCurso
         {
             {
                 int cont = 0;
-                int meca = 5;
-                int ds = 5;
-                int edf = 5;
-                int adm = 5;
+                int meca = 0;
+                int ds = 0
+                    
+                    
+                    
+                    ;
+                int edf = 0;
+                int adm = 0;
                 int continuar = 1;
                 int curso;
 
@@ -29,7 +33,7 @@ namespace EscolhaCurso
                     switch (curso)
                     {
                         case 1:
-                            if (ds > 0)
+                            if (ds <= 5)
                             {
                                 Console.WriteLine("O aluno foi matrículado em Desenvolvimento de Sistemas.");
                                 ds++;
@@ -42,7 +46,7 @@ namespace EscolhaCurso
                             break;
 
                         case 2:
-                           if (meca > 0)
+                           if (meca <= 5)
                             {
                                 Console.WriteLine("O aluno foi matrículado em Mecatrônica.");
                                 meca++;
@@ -55,7 +59,7 @@ namespace EscolhaCurso
                             break;
 
                         case 3:
-                            if (edf > 0)
+                            if (edf <= 0)
                             {
                                 Console.WriteLine("O aluno foi matrículado em Edificações.");
                                 edf++;
@@ -68,7 +72,7 @@ namespace EscolhaCurso
                             break;
 
                         case 4:
-                            if (adm > 0)
+                            if (adm <= 0)
                             {
                                 Console.WriteLine("O aluno foi matrículado em Adminastração.");
                                 adm++;
